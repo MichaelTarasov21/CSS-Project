@@ -266,6 +266,11 @@ body{
 	color: white;
 	font-size: 5rem;
 }
+@media only screen and (max-height: 69rem) {
+	#h3{
+		top: 150%;
+	}
+}
 .card{
 	position: relative;
 	margin-top: 0rem; 

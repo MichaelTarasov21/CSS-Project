@@ -134,10 +134,10 @@ body{
 }
 @media only screen and (max-width: 44rem) {
 	input[type="text"] {
-    width: 10rem;
+    width: 5rem;
 }
 	input[type="email"] {
-    width: 10rem;
+    width: 5rem;
 }
 }
 #header{

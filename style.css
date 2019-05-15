@@ -132,6 +132,14 @@ body{
 		color: #333;
 	}
 }
+@media only screen and (max-width: 44rem) {
+	input[type="text"] {
+    width: 10rem;
+}
+	input[type="email"] {
+    width: 10rem;
+}
+}
 #header{
   text-align: center;
   color: white;

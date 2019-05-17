@@ -162,7 +162,7 @@ body{
 	height: 104%;
 }
 #block2t{
-	width: auto;
+	width: 30%;
 	height: 40%;
 	position: relative;
 	left: calc((100% - 55%)/3);
@@ -267,7 +267,7 @@ body{
 	color: white;
 	font-size: 500%;
 }
-@media only screen and (max-height: 600px) {
+@media only screen and (max-height: 440px) {
 	#h3{
 		top: 195%;
 		font-size: 300%;

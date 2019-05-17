@@ -7,27 +7,27 @@
 html {
   scroll-behavior: smooth;
  }
- @media only screen and (max-width: 150rem) {
+ @media only screen and (max-width: 1500px) {
 	html {
 	  font-size: 150%;
 	}
   }
- @media only screen and (max-width: 100rem) {
+ @media only screen and (max-width: 1000px) {
 	html {
 	  font-size: 100%;
 	}
   }
-  @media only screen and (max-width: 80rem) {
+  @media only screen and (max-width: 800px) {
 	html {
 	  font-size: 80%;
 	}
   }
-  @media only screen and (max-width: 50rem) {
+  @media only screen and (max-width: 500px) {
 	html {
 	  font-size: 60%;
 	}
   }
-  @media only screen and (max-width: 37.5rem) {
+  @media only screen and (max-width: 375px) {
 	html {
 	  font-size: 40%;
 	}
@@ -63,7 +63,7 @@ body{
 .nav_link:hover{
 	background: #111;
 }
-@media only screen and (max-width: 90rem) {
+@media only screen and (max-width: 900px) {
 	.nav_link:hover{
 		background-color: #333;
 	}
@@ -127,12 +127,12 @@ body{
 .popup .close:hover{
   color: #06D85F;
 }
-@media only screen and (max-width: 90rem) {
+@media only screen and (max-width: 900px) {
 	.popup .close:hover{
 		color: #333;
 	}
 }
-@media only screen and (max-width: 44rem) {
+@media only screen and (max-width: 440px) {
 	.text_box{
 		width: 10rem;
 	}
@@ -229,7 +229,7 @@ body{
 	width: 40%;
 	height: 60%;	
 }
-   @media only screen and (max-width: 90rem) {
+   @media only screen and (max-width: 900px) {
    	#home1:hover {
 	width: 20%;
 	height:30%;
@@ -266,7 +266,7 @@ body{
 	color: white;
 	font-size: 500%;
 }
-@media only screen and (max-height: 44rem) {
+@media only screen and (max-height: 440px) {
 	#h3{
 		top: 195%;
 		font-size: 300%;
@@ -367,35 +367,35 @@ body{
 	transform: rotateY(0deg);
 	filter: grayscale(80%);
 } 
- @media only screen and (max-width: 150rem) {
+ @media only screen and (max-width: 1500px) {
 	.cards {
 	 
 	  font-size: 300%;
 	}
   }
- @media only screen and (max-width: 100rem) {
+ @media only screen and (max-width: 1000rem) {
 	.cards {
 	  height: 30vh;
 	  font-size: 250%;
 	}
   }
-  @media only screen and (max-width: 80rem) {
+  @media only screen and (max-width: 800px) {
 	.cards {
 	  height: 24vh;
 	  font-size: 200%;
 	}
   }
-  @media only screen and (max-width: 50rem) {
+  @media only screen and (max-width: 500px) {
 	.cards {
 	  height: 15vh;
 	}
   }
-  @media only screen and (max-width: 37.5rem) {
+  @media only screen and (max-width: 375px) {
 	.cards {
 	  height: 12vh;
 	}
   }
-   @media only screen and (max-width: 90rem) {
+   @media only screen and (max-width: 900px) {
    	.card_a:hover #card_front_a {
 	  transform: rotate(0deg);
 	}
@@ -429,22 +429,22 @@ body{
 	height: 20%;
 	overflow: hidden;
 }
- @media only screen and (max-width: 100rem) {
+ @media only screen and (max-width: 1000px) {
 	.review {
 		height: 20%;
 	}
   }
-  @media only screen and (max-width: 80rem) {
+  @media only screen and (max-width: 800px) {
 	.review {
 		height: 16%;
 	}
   }
-  @media only screen and (max-width: 50rem) {
+  @media only screen and (max-width: 500px) {
 	.review {
 		height: 15%;
 	}
   }
-  @media only screen and (max-width: 37.5rem) {
+  @media only screen and (max-width: 375px) {
 	.review {
 		height: 10%;
 	}
@@ -504,14 +504,14 @@ body{
 	-moz-box-shadow: 0px 0px 5px .9rem var(--variable_for_box_shadow_color_on_hover);
 	box-shadow: 0px 0px 5px .9rem var(--variable_for_box_shadow_color_on_hover);
 }
-@media only screen and (max-width: 90rem) {
+@media only screen and (max-width: 900px) {
 	#review1:hover {
 	-webkit-box-shadow: 0px 0px 5px .9rem var(--variable_for_box_shadow_color);
 	-moz-box-shadow: 0px 0px 5px .9rem var(--variable_for_box_shadow_color);
 	box-shadow: 0px 0px 5px .9rem var(--variable_for_box_shadow_color);
 	}
   }
-@media only screen and (max-width: 90rem) {
+@media only screen and (max-width: 900px) {
 	#review2:hover {
 	-webkit-box-shadow: 0px 0px 5px .9rem var(--variable_for_box_shadow_color);
 	-moz-box-shadow: 0px 0px 5px .9rem var(--variable_for_box_shadow_color);
@@ -521,7 +521,7 @@ body{
 .profile_pic:hover {
 	filter: grayscale(90%);
 }
-@media only screen and (max-width: 90rem) {
+@media only screen and (max-width: 900px) {
 	.profile_pic:hover {
 	filter: grayscale(0);
 	}

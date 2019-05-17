@@ -162,7 +162,8 @@ body{
 	height: 104%;
 }
 #block2t{
-	width: 30%;
+	width: auto;
+	height: 40%;
 	position: relative;
 	left: calc((100% - 55%)/3);
 	float: left;

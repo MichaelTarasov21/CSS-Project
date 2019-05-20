@@ -8,22 +8,22 @@ html {
   scroll-behavior: smooth;
   font-size: 150%;
  }
- @media only screen and (max-width: 1000px) {
+ @media only screen and (max-width: 1000px), screen and (max-height: 1000px) {
 	html {
 	  font-size: 100%;
 	}
   }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 800px), screen and (max-height: 800px) {
 	html {
 	  font-size: 80%;
 	}
   }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 500px), screen and (max-height: 500px) {
 	html {
 	  font-size: 60%;
 	}
   }
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 375px), screen and (max-height: 375px) {
 	html {
 	  font-size: 40%;
 	}

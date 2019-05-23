@@ -13,17 +13,17 @@ html {
 	  font-size: 100%;
 	}
   }
-  @media only screen and (max-width: 800px){
+  @media only screen and (max-width: 850px){
 	html {
 	  font-size: 80%;
 	}
   }
-  @media only screen and (max-width: 500px), screen and (max-height: 500px) {
+  @media only screen and (max-width: 550px), screen and (max-height: 550px) {
 	html {
 	  font-size: 60%;
 	}
   }
-  @media only screen and (max-width: 375px), screen and (max-height: 375px) {
+  @media only screen and (max-width: 400px), screen and (max-height: 400px) {
 	html {
 	  font-size: 40%;
 	}
@@ -128,7 +128,7 @@ body{
 		color: #333;
 	}
 }
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 450px) {
 	.text_box{
 		width: 10rem;
 	}
@@ -262,7 +262,7 @@ body{
 	color: white;
 	font-size: 500%;
 }
-@media only screen and (max-height: 440px) {
+@media only screen and (max-height: 450px) {
 	#h3{
 		top: 195%;
 		font-size: 300%;
@@ -369,18 +369,18 @@ body{
 	  font-size: 250%;
 	}
   }
-  @media only screen and (max-width: 800px), screen and (max-height: 800px) {
+  @media only screen and (max-width: 850px), screen and (max-height: 850px) {
 	.cards {
 	  height: 24vh;
 	  font-size: 200%;
 	}
   }
-  @media only screen and (max-width: 500px), screen and (max-height: 500px) {
+  @media only screen and (max-width: 550px), screen and (max-height: 550px) {
 	.cards {
 	  height: 15vh;
 	}
   }
-  @media only screen and (max-width: 375px), screen and (max-height: 375px) {
+  @media only screen and (max-width: 400px), screen and (max-height: 400px) {
 	.cards {
 	  height: 12vh;
 	}
@@ -424,17 +424,17 @@ body{
 		height: 20%;
 	}
   }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 850px) {
 	.review {
 		height: 16%;
 	}
   }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 550px) {
 	.review {
 		height: 15%;
 	}
   }
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 400px) {
 	.review {
 		height: 10%;
 	}

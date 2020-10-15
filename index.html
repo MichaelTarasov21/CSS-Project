@@ -1,125 +1,134 @@
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Travel</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Bad+Script"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Trirong"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Srisakdi"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<title>Travel</title>
-	<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Trirong" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
-</head>
-
-<body>
-	<nav>
-		<ul id="nav_bar">
-			<div><a href="#block2" class="nav_link">Housing Options</a></div>
-			<div><a href="#block3" class="nav_link">Vacation Options</a></div>
-			<div><a href="#block4" class="nav_link">Reviews</a></div>
-		</ul>
-	</nav>
-	<div class="block" id="header">
-		<div id="header_text">
-			<h1>A Supreme Experience!</h1>
-			<p>Travel With Us!</p>
-			<a id="button1" href="#popup1">Order Now</a>
-		</div>
-	</div>
-	<div id="block2" class="block">
-		<div id="block2t">
-			<h1 id="h2">Our Vacation Homes</h1>Lorem Ipsum is simply dummy text of the printing and typesetting
-			industry. Lorem
-			Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-			galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
-			also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-			with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-			publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-		</div>
-		<img id="home1" src="img/lux1.png">
-		<img id="home2" src="img/lux2.jpg">
-		<img id="home3" src="img/lux3.jpg">
-	</div>
-	<div id="block3" class="block">
-		<h1 id="h3"> Available Travel Options</h1>
-		<div class="card">
-			<div class="card_a">
-				<div class="cards card_front" id="card_front_a">
-					Oasis Vacation
-				</div>
-				<div class="cards card_back" id="card_back_a">
-					Cost:
-					<div>
-						$3000
-					</div>
-				</div>
-			</div>
-			<div class="card_b">
-				<div class="cards card_front" id="card_front_b">
-					Mountain Getaway
-				</div>
-				<div class="cards card_back" id="card_back_b">
-					Cost:
-					<div>
-						$5000
-					</div>
-				</div>
-			</div>
-			<div class="card_c">
-				<div class="cards card_front" id="card_front_c">
-					Arctic Exploration
-				</div>
-				<div class="cards card_back" id="card_back_c">
-					Coming Soon
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="block4" class="block">
-		<div class="review" id="review1">
-			<div class="profile" id="profile1">
-				<img src="img/bob.jpg" class="profile_pic" id="profile_pic1">
-			</div>
-			<div class="review_text">
-				Nullam odio quam, ullamcorper in finibus ac, maximus vitae est. Donec blandit, felis nec interdum
-				elementum, est orci ornare dui, quis venenatis nibh eros ac quam. In ut turpis id urna bibendum rutrum
-				sit amet et tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-				himenaeos. Nullam egestas nisi et nunc lacinia fermentum. Phasellus et congue diam. Vestibulum bibendum
-				vel arcu a gravida. Phasellus tempor odio consequat, porttitor risus at, congue quam. Fusce tincidunt
-				orci id venenatis pretium.
-			</div>
-		</div>
-		<div class="review" id="review2">
-			<div class="profile" id="profile2">
-				<img src="img/ben.jpg" class="profile_pic" id="profile_pic2">
-			</div>
-			<div class="review_text">
-				Nullam id consectetur quam. Nam ligula elit, tempor sit amet tincidunt quis, congue nec turpis. Lorem
-				ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper sed dolor in dictum. Sed et dictum
-				est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus
-				cursus augue sed urna aliquam dapibus. In sagittis maximus ex in porttitor. Quisque quis sapien mi.
-				Etiam semper enim ex, in molestie tortor aliquet quis. Sed egestas pharetra orci id pulvinar.
-			</div>
-		</div>
-	</div>
-	<div id="popup1" class="overlay">
-		<div class="popup">
-			<a class="close" href="#">&times;</a>
-			Please give us some basic information so that we can get back to you with a detailed list of available
-			rentals
-			<div>
-				<h3>Arrival Day</h3><input type="date" name="Start of Trip" required>
-			</div>
-			<div>
-				<h3>Departure Day</h3><input type="date" name="Start of Trip" required>
-			</div>
-			<div>
-				<h3>Name</h3><input type="text" name="First Name" class="text_box" required>
-			</div>
-			<div>
-				<h3>Email</h3><input type="Eamil" name="Eamil" class="text_box" required>
-			</div>
-			<div><input type="submit" name="submit" value="Submit"></div>
-		</div>
-	</div>
-</body>
-
+  <body>
+    <nav>
+      <ul id="nav_bar">
+        <div><a href="#block2" class="nav_link">Housing Options</a></div>
+        <div><a href="#block3" class="nav_link">Vacation Options</a></div>
+        <div><a href="#block4" class="nav_link">Reviews</a></div>
+      </ul>
+    </nav>
+    <div class="block" id="header">
+      <div id="header_text">
+        <h1>A Supreme Experience!</h1>
+        <p>Travel With Us!</p>
+        <a id="button1" href="#popup1">Order Now</a>
+      </div>
+    </div>
+    <div id="block2" class="block">
+      <div id="block2t">
+        <h1 id="h2">Our Vacation Homes</h1>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </div>
+      <img id="home1" src="img/lux1.png" />
+      <img id="home2" src="img/lux2.jpg" />
+      <img id="home3" src="img/lux3.jpg" />
+    </div>
+    <div id="block3" class="block">
+      <h1 id="h3">Available Travel Options</h1>
+      <div class="card">
+        <div class="card_a">
+          <div class="cards card_front" id="card_front_a">Oasis Vacation</div>
+          <div class="cards card_back" id="card_back_a">
+            Cost:
+            <div>$3000</div>
+          </div>
+        </div>
+        <div class="card_b">
+          <div class="cards card_front" id="card_front_b">Mountain Getaway</div>
+          <div class="cards card_back" id="card_back_b">
+            Cost:
+            <div>$5000</div>
+          </div>
+        </div>
+        <div class="card_c">
+          <div class="cards card_front" id="card_front_c">
+            Arctic Exploration
+          </div>
+          <div class="cards card_back" id="card_back_c">Coming Soon</div>
+        </div>
+      </div>
+    </div>
+    <div id="block4" class="block">
+      <div class="review" id="review1">
+        <div class="profile" id="profile1">
+          <img src="img/bob.jpg" class="profile_pic" id="profile_pic1" />
+        </div>
+        <div class="review_text">
+          Nullam odio quam, ullamcorper in finibus ac, maximus vitae est. Donec
+          blandit, felis nec interdum elementum, est orci ornare dui, quis
+          venenatis nibh eros ac quam. In ut turpis id urna bibendum rutrum sit
+          amet et tellus. Class aptent taciti sociosqu ad litora torquent per
+          conubia nostra, per inceptos himenaeos. Nullam egestas nisi et nunc
+          lacinia fermentum. Phasellus et congue diam. Vestibulum bibendum vel
+          arcu a gravida. Phasellus tempor odio consequat, porttitor risus at,
+          congue quam. Fusce tincidunt orci id venenatis pretium.
+        </div>
+      </div>
+      <div class="review" id="review2">
+        <div class="profile" id="profile2">
+          <img src="img/ben.jpg" class="profile_pic" id="profile_pic2" />
+        </div>
+        <div class="review_text">
+          Nullam id consectetur quam. Nam ligula elit, tempor sit amet tincidunt
+          quis, congue nec turpis. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Aenean ullamcorper sed dolor in dictum. Sed et dictum
+          est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia Curae; Vivamus cursus augue sed urna aliquam dapibus.
+          In sagittis maximus ex in porttitor. Quisque quis sapien mi. Etiam
+          semper enim ex, in molestie tortor aliquet quis. Sed egestas pharetra
+          orci id pulvinar.
+        </div>
+      </div>
+    </div>
+    <div id="popup1" class="overlay">
+      <div class="popup">
+        <a class="close" href="#">&times;</a>
+        Please give us some basic information so that we can get back to you
+        with a detailed list of available rentals
+        <div>
+          <h3>Arrival Day</h3>
+          <input type="date" name="Start of Trip" required />
+        </div>
+        <div>
+          <h3>Departure Day</h3>
+          <input type="date" name="Start of Trip" required />
+        </div>
+        <div>
+          <h3>Name</h3>
+          <input type="text" name="First Name" class="text_box" required />
+        </div>
+        <div>
+          <h3>Email</h3>
+          <input type="Eamil" name="Eamil" class="text_box" required />
+        </div>
+        <div><input type="submit" name="submit" value="Submit" /></div>
+      </div>
+    </div>
+  </body>
 </html>
